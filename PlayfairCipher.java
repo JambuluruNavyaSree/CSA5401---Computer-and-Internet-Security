@@ -69,10 +69,7 @@ class playfairCipher {
 
     public static void main(String[] args) throws java.lang.Exception {
         String key = "CSE";
-        String txt = "Security Lab"; /* make sure string length is even */ /*
-                                                                            * change J
-                                                                            * to I
-                                                                            */
+        String txt = "Security Lab"; 
         boolean chgJtoI = true;
         createTbl(key, chgJtoI);
         String enc = encode(prepareText(txt, chgJtoI));
